@@ -1,18 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-
+    font-family: serif;
+    color: white;
 }
+
 html{
     scroll-behavior: smooth;
 }
-section{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-}
-.hero{
+
+.header{
     width:100%;
     height: 100vh;
     background-image: url(../teamimg.jpeg);
@@ -20,14 +17,13 @@ section{
     background-position: center;
     opacity: 0.8;
     background-color: #444284;
-    /*tint color*/
     background-blend-mode: multiply;
     position: relative;
     overflow: hidden;
 }
 
 .logo{
-    width: 100px;
+    width: 85px;
     cursor: pointer;
 } 
 
@@ -86,9 +82,10 @@ buttontransp{
     font-family:'Monaco';
     color: #fbfcfd;
     position: absolute;
-    top:50%;
-    left:40%;
-    z-index:2;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     opacity: 1;
     font-size:x-large;
     font-family:'monaco'; 
@@ -109,7 +106,7 @@ buttontransp{
 .scroll::after{
     content: ' ';
     position: absolute;
-    top:20%;
+    top:30%;
     left: 50%;
     border: 2px solid white;
     height:10px;
@@ -123,26 +120,93 @@ buttontransp{
     top: 30%;
     animation-delay: 0.3s;
 }
+
 @keyframes scroll{
     0%{
-        opacity: 0;
     }
     30%{
-        opacity: 1;
     }
     60%{
-        opacity: 1;
     }
     100%{
-        opacity: 0;
         top: 90%;
     }
 }
 
-.sec2hero{
-    background-color: coral;
-    width:100%;
-    height: 100vh;
-
+#description{
+    background-color: #b896d2;
+    width: 100%;
+    height: 80%;
 }
 
+#desctext{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+.descimg{
+    position: absolute;
+    left: 50%;
+}
+
+#footer{
+    width: 100%;
+    height: 20%;
+    background-color: #1d1b51;
+    opacity: 0.8;
+}
+
+#footerlogo{
+    width: 135px;
+    margin-left: 1%;
+}
+
+#footername{
+    color: white;
+    font-size: xxx-large;
+}
+
+.contact{
+    width: 35px;
+    margin-right: 5px !important;
+}
+
+.foot{
+    width: 33.3%;
+}
+
+td{
+    text-align: center;
+    font: serif;
+    align-items: center;
+}
+
+#contacts{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#links{
+    position: inherit;
+    margin-left: 25%;
+    color: white;
+}
+
+.page{
+    text-align: left;
+    width: 85px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+
+.comingsoon{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black !important;
+    font-size: xxx-large;
+}
