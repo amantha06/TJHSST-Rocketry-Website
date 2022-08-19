@@ -1,0 +1,142 @@
+.footer {
+    height: 50%;
+    background-color: black;
+}
+
+.footerlogo {
+    width: 150px;
+}
+
+.footerrow {
+    height: 100% !important;
+    width: 100% !important;
+    position: relative;
+    margin: 0 0 0 0;
+}
+
+#footermain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#footername {
+    color: white !important;
+}
+
+#footername:link {
+    text-decoration: none !important;
+}
+
+
+#footername:visited {
+    text-decoration: none !important;
+}
+
+
+#footername:hover {
+    text-decoration: none !important;
+}
+
+
+#footername:active {
+    text-decoration: none !important;
+}
+
+#footerlinks {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 3;
+    text-align: left;
+    width: 25%;
+}
+
+.footerlink:link {
+    color: white !important;
+}
+
+
+.footerlink:visited {
+    color: white !important;
+}
+
+
+.footerlink:hover {
+    color: #ff6464 !important;
+}
+
+
+.footerlink:active {
+    color: white !important;
+}
+
+.footerlink {
+    position: relative;
+    width: 100%;
+}
+
+#footerplugs {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.footerplug {
+    width: 35px;
+    padding: 1%;
+}
+
+@media(max-width: 767px) {
+
+    #footermain {
+        padding-top: 5%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35%;
+        text-align: center;
+    }
+
+    .footerlogo {
+        width: 100px;
+    }
+
+    #footerlinks {
+        margin-top: 3%;
+        line-height: 3;
+        text-align: center;
+    }
+
+    .footerlink:link {
+        color: white !important;
+        text-decoration:none !important;
+    }
+    
+    
+    .footerlink:visited {
+        color: white !important;
+        text-decoration: none !important;
+    }
+    
+    
+    .footerlink:hover {
+        color: #ff6464 !important;
+        text-decoration: none !important;
+    }
+    
+    
+    .footerlink:active {
+        color: white !important;
+        text-decoration: none !important;
+    }
+
+    #footerplugs {
+        margin-top: 5%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+}
