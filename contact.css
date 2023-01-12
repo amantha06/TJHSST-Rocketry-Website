@@ -1,0 +1,111 @@
+#contactplug {
+    text-align: center;
+}
+
+#contactTitle {
+    font-family: "Avenir";
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+#contactemail,
+#contactmedia {
+    text-align: left;
+    margin-top: 10%;
+    padding-left: 15%;
+}
+
+.contactimg {
+    width: 50px;
+}
+
+.formrow {
+    width: 80%;
+    float: right;
+}
+
+#email:link {
+    color: white !important;
+}
+
+
+#email:visited {
+    color: white !important;
+}
+
+#email:hover {
+    color: white !important;
+}
+
+
+#email:active {
+    color: white !important;
+}
+
+#emailcontact {
+    margin-top: 10%;
+}
+
+.descdiv {
+    width: 50%;
+}
+
+form {
+    font-family: "Avenir" !important;
+}
+
+.field {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 0px !important;
+    font-size: 14px;
+}
+
+.labels {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.submitdiv {
+    width: 100%;
+    background-color: white;
+}
+
+#emailsubmit {
+    float: right;
+    border-radius: 0px !important;
+    margin-top: 3%;
+    width: 25%;
+}
+
+#emailsubmit:hover {
+    border: 1px solid #ff6464 !important;
+    background-color: black !important;
+    color: #ff6464 !important;
+    transition: 0.5s;
+}
+
+@media(max-width: 767px) {
+    #contactemail, #contactmedia {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    #emailsubmit {
+       left: 72%;
+    }
+    
+    form {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .formrow {
+        width: 100%;
+    }
+
+    .descdiv {
+        width: 100%;
+    }
+}

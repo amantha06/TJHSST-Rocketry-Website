@@ -1,0 +1,160 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/x-icon" href="./assets/tjslilogo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="footer.css">
+        <title>Home | TJ NASA SL</title>
+    </head>
+    <body>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'>
+                    <a href='index.html' class="title"><img src='./assets/tjslilogo.png'/><span>TJ SLI</span>
+                    </a>
+                </li>
+                <input type='checkbox' id='check'/>
+                <span class="menu">
+                    <li>
+                        <a href="index.html" style="color: #ff6464">Home</a>
+                    </li>
+                    <li>
+                        <a href="progress.html">Progress</a>
+                    </li>
+                    <li>
+                        <a href="sponsors.html">Sponsors</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.gofundme.com" target="_blank">
+                            <button type="button" class="btn btn-danger donate">Donate</button>
+                        </a>
+                    </li>
+                    <label for="check" class="close-menu">
+                        <em class="fas fa-times"></em>
+                    </label>
+                </span>
+                <label for="check" class="open-menu">
+                    <em class="fas fa-bars"></em>
+                </label>
+            </ul>
+        </nav>
+        <div id="titlecontent">
+            <div id="title">
+                TJ SL - NASA Student Launch 
+            </div>
+            <div id="titledesc">
+                The official website for TJHSST's NASA Student Launch team and their progress throughout the challenge
+            </div>
+            <a href="progress.html">
+                <button type="button" class="btn btn-danger" id="titlebut" style="font-size: 14px;">View Our Progress</button>
+            </a>
+        </div>
+        <div id="slidesc" class="container-md">
+            <div class="row">
+                <div id="desctitle" class="col-md-6 descdiv">
+                    What is TJ SLI?
+                </div>
+                <div id="desctext" class="col-md-6 descdiv">
+                    NASA Student Launch Initiative is a challenge where teams work across a period of nine months in order to develop a rocket and payload that will be able to better the rocketing community. The payload will contain an engineering experiment that will showcase novelty in rocketry in addition to reaching out to numerous STEM officials.
+                    <br><br>
+                    As a member of the TJHSST SLI team, students have a great opportunity to be able to work with NASA engineers and officers to develop engineering skills. Additionally, the students will work towards raising funds in order to self-fund their entire challenge, a process that often requires around $20,000.
+                    <br>
+                    <a href="contact.html">
+                        <button type="button" class="btn btn-danger" id="descbut" style="font-size: 16px;">Contact Us</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="teams">
+            <div id="teamstitle">Our Teams</div>
+            <br>
+            <div id="teamsdesc">TJ NASA SL is divided into four distinct teams that each handle different aspects of our group</div>
+            <div class="row teams">
+                <div class="col-md-3 team">
+                    <img src="./assets/rocketteam.png" alt="" class="teamimg">
+                    <div class="teamname">Rocket / Safety</div>
+                    <br>
+                    <div class="teamdesc">The rocket and avionics team is responsible for design, building, and testing of the airframe, avionics, and recovery system of the rocket. In addition, the safety team will be responsible for ensuring safe practices when building our rocket and payload while working with tools and materials.</div>
+                    <hr class="teamline">
+                </div>
+                <div class="col-md-3 team">
+                    <img src="./assets/payloadteam.png" alt="" class="teamimg">
+                    <div class="teamname">Payload</div>
+                    <br>
+                    <div class="teamdesc">The payload team is responsible for building a payload that will be launched with the rocket in order to complete an engineering experiment. The payload team is split into two subteams, the engineering team and programming team which are both responsible for handling separate aspects of the payload.</div>
+                    <hr class="teamline">
+                </div>
+                <div class="col-md-3 team">
+                    <img src="./assets/financeteam.png" alt="" class="teamimg">
+                    <div class="teamname">Finance</div>
+                    <br>
+                    <div class="teamdesc">The finance team is responsible for obtaining grants and funds for the entire TJHSST SLI team in order to help self-fund the entire budget which includes money for the payload, rocket, and funds for team travel and food. In addition, the finance team handles reaching out to sponsors and schools faculties.</div>
+                    <hr class="teamline">
+                </div>
+                <div class="col-md-3 team">
+                    <img src="./assets/outreachteam.png" alt="" class="teamimg">
+                    <div class="teamname">Outreach</div>
+                    <br>
+                    <div class="teamdesc">The outreach team handles and maintains the TJ NASA SL team's social media and website in order to allow for individuals outside of the team to keep up with progress. In addition, the outreach team is responsible for reaching out to STEM ambassadors and students to help educate more people about the benefits of STEM.</div>
+                    <hr class="teamline">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="row footerrow">
+                    <div class="col-md-4" id="footermain">
+                        <a href="index.html" id="footername">
+                            <img src="./assets/tjslilogo.png" alt="" class="footerlogo">
+                            TJ SLI
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="footerlinks">
+                            <a href="index.html" class="footerlink">
+                                <span>Home</span>
+                            </a>
+                            <br>
+                            <a href="progress.html" class="footerlink">
+                                <span>Progress</span>
+                            </a>
+                            <br>
+                            <a href="sponsors.html" class="footerlink">
+                                <span>Sponsors</span>
+                            </a>
+                            <br>
+                            <a href="contact.html" class="footerlink">
+                                <span>Contact Us</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="footerplugs">
+                            Follow Us On:
+                            <br>
+                            <a href="https://github.com/TJ-NASA-Student-Launch" target="_blank"><img src="./assets/github.png" alt="" class="footerplug"></a>
+                            <a href="https://www.facebook.com/TJHSSTSLI" target="_blank"><img src="./assets/facebook.png" alt="" class="footerplug"></a>
+                            <a href="https://www.instagram.com/tj_sli/" target="_blank"><img src="./assets/instagram.png" alt="" class="footerplug"></a>
+                            <a href="https://www.linkedin.com/company/tj-rocketry/?viewAsMember=true" target="_blank"><img src="./assets/linkedin.png" alt="" class="footerplug"></a>
+                            <br>
+                            <br>
+                            © 2022 by TJ NASA SL
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </body>
+</html>

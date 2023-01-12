@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --color1: #FFF;
+  --color2: black;
+  --color3: #ff6464;
+  color: white !important;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: black !important;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  background-color: var(--color2);
+  padding: 12px 20px;
+  margin-bottom: 0%;
+}
+
+.btn-danger {
+  background-color: #ff6464;
+  color: black;
+  border: 1px solid #ff6464;
+}
+
+.donate {
+  background-color: #ff6464 !important;
+  color: black !important;
+  border: 1px solid #ff6464 !important;
+  font-size: 15px !important;
+}
+
+.donate:hover {
+  opacity: 0.8;
+}
+
+.logo img {
+  width: 55px;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+.title {
+  color: white !important;
+  font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title:link {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+.title:visited {
+  text-decoration: none !important;
+}
+
+
+.title:hover {
+  text-decoration: none !important;
+}
+
+
+.title:active {
+  text-decoration: none !important;
+}
+
+.menu {
+  display: flex;
+  margin-right: 5%;
+  font-size: 14px;
+  position: relative;
+}
+
+.menu li {
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color1);
+  text-align: center;
+  position: relative;
+}
+
+.menu li a:hover {
+  color: var(--color3) !important;
+}
+
+.open-menu,
+.close-menu {
+  position: absolute;
+  color: var(--color1);
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  margin-right: 5%;
+}
+
+.close-menu {
+  top: 5%;
+  right: 20px;
+  transform: translateY(-50%);
+  margin-right: 5%;
+}
+
+#check {
+  display: none;
+}
+
+@media(max-width: 767px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: var(--color2);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .menu li {
+    margin-top: 40px;
+  }
+
+  .menu li a {
+    padding: 10px;
+  }
+
+  .open-menu,
+  .close-menu {
+    display: block;
+  }
+
+  #check:checked~.menu {
+    right: -5%;
+  }
+}

@@ -1,0 +1,210 @@
+#titlecontent {
+    position: relative;
+    width: 100%;
+    height: 110%;
+    overflow: hidden;
+    background: url(./assets/homebackground.png);
+    opacity: 1;
+    background-color: #ff6464;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+#title {
+    font-size: 80px;
+    font-weight: bolder;
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#titledesc {
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 40%;
+    line-height: 1.5;
+}
+
+#titlebut {
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 1% 1% 1% 1%;
+}
+
+#titlebut:hover {
+    background-color: black !important;
+    border-color: white !important;
+    color: white !important;
+    transition: 0.5s;
+}
+
+#slidesc {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#desctitle {
+    overflow: hidden;
+    background: url(./assets/descbackground.png);
+    opacity: 50%;
+
+    background-color: #1a1a1d;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.descdiv {
+    border: 0.5px solid darkgray;
+}
+
+#desctext {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    line-height: 2;
+    font-size: 17px;
+}
+
+#descbut {
+    margin-top: 4%;
+    padding: 4% 6% 4% 6%;
+}
+
+#descbut:hover {
+    background-color: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+#teams {
+    background-color: #1a1a1d;
+    width: 100%;
+    text-align: center;
+}
+
+.teams {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    align-items: center;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    margin-top: 5%;
+}
+
+#teamstitle {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+#teamsdesc {
+    font-size: 20px;
+    width: 47%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.teamimg {
+    height: 75px;
+    width: auto;
+    padding-bottom: 4%;
+}
+
+.teamname {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.teamline {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid;
+}
+
+@media(max-width: 767px) {
+    #titlecontent {
+        position: relative;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+
+    #title {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 10%;
+        font-size: 32px;
+        font-weight: bolder;
+        width: 80%;
+        text-align: center;
+    }
+
+    #titledesc {
+        position: relative;
+        font-family: "Avenir";
+        font-weight: bold;
+        margin: 0 auto;
+        margin-top: 20%;
+        font-size: 18px;
+        width: 75%;
+        text-align: center;
+    }
+
+    #titlebut {
+        margin-top: 20%;
+        margin-left: 0%;
+        padding: 5% 5% 5% 5%;
+    }
+
+    #desctitle {
+        font-family: "Avenir";
+        font-weight: bold;
+    }
+
+    .descdiv {
+        border: 0px;
+        background: url(./assets/descbackground.png) !important;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #desctext {
+        padding-top: 0%;
+        text-align: center !important;
+        line-height: 1.8;
+    }
+
+    #teamsdesc {
+        width: 85%;
+    }
+
+    #teams {
+        padding-top: 4%;
+    }
+
+    .teams {
+        width: 90%;
+        position: relative;
+        margin: 0 0 0 0;
+        margin-top: 2% !important;
+        transform: translateX(-50%);
+    }
+
+    .teamimg {
+        width: 75px;
+        height: auto;
+        padding-bottom: 4%;
+    }
+}
