@@ -257,6 +257,7 @@ a.polaroid {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     -webkit-transition: -webkit-transform 0.5s ease-in;
 }
+
 a.polaroid:hover, a.polaroid:focus, a.polaroid:active {
     z-index: 999;
     border-color: white;
