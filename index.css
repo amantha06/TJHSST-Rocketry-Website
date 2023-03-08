@@ -5,7 +5,7 @@
     overflow: hidden;
     background: url(./assets/homebackground.png);
     opacity: 1;
-    background-color: #ff6464;
+    background-color: #e17a7a;
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -49,7 +49,7 @@
 
 #desctitle {
     overflow: hidden;
-    background: url(./assets/descbackground.png);
+    background: url(./assets/tjslilogo.png);
     opacity: 50%;
 
     background-color: #1a1a1d;
@@ -175,7 +175,7 @@
 
     .descdiv {
         border: 0px;
-        background: url(./assets/descbackground.png) !important;
+        background: url(./assets/images.png) !important;
         background-position: center;
         background-size: cover;
     }
